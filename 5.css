@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.gradient-button {
+    background: linear-gradient(45deg, #ff7f50, #ff4500);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.gradient-button:hover {
+    transform: scale(1.1);
+}
+
+.border-hover-button {
+    background-color: white;
+    color: #333;
+    border: 2px solid #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s, color 0.3s;
+}
+
+.border-hover-button:hover {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.glow-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #007bff;
+    transition: box-shadow 0.3s;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 20px #007bff, 0 0 30px #007bff;
+}
